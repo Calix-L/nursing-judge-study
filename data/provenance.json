@@ -1,0 +1,63 @@
+{
+  "source_repository": "https://github.com/Calix-L/diabetes-care-bench",
+  "source_commit": "704bb1e5d1e1964821d9318b4b29fc0122c5c5c9",
+  "upstream_repository": "https://github.com/ntcgeorge/diabetic-nursing-harness",
+  "upstream_commit": "3118f1ff345ce0b5400be7538b7f4a87f8b27942",
+  "original_script_exports": [
+    {
+      "exported_path": "historical/prepare_original.py",
+      "original_relative_path": "runs/judge-agreement-20261020-r1/prepare.py",
+      "original_sha256": "8c258ab262ce983d0eb938681f322bf3e26b77f73787f5c8ed7e9074a2534be5"
+    },
+    {
+      "exported_path": "historical/run_original.py",
+      "original_relative_path": "runs/judge-agreement-20261020-r1/run.py",
+      "original_sha256": "7435b7af516289f540eccd8028edfd976a063e3c61a5cf3c0abcbc48d3afbc40"
+    },
+    {
+      "exported_path": "historical/analyze_original.py",
+      "original_relative_path": "runs/judge-agreement-20261020-r1/analyze.py",
+      "original_sha256": "1cad62e6da2476d23fdbc5133ba982f98f3a0910b05ca0ae78140c537d2406da"
+    },
+    {
+      "exported_path": "historical/prepare_binary.py",
+      "original_relative_path": "runs/judge-binary-20261020-r1/prepare.py",
+      "original_sha256": "a772f390a340fa3822a025b34d207cfe4e12147fe0b6aeda512216ed0e115a2f"
+    },
+    {
+      "exported_path": "historical/run_binary.py",
+      "original_relative_path": "runs/judge-binary-20261020-r1/run.py",
+      "original_sha256": "dfd9289d8270cc4ae824817f5c4afdad28608db6e7372605b90052bc7941d111"
+    },
+    {
+      "exported_path": "historical/run_expanded.py",
+      "original_relative_path": "runs/judge-expanded-20261029-r1/run.py",
+      "original_sha256": "0d84ec9f1a6f27ded32964b918d878a1d7de9a58bed4eadb78e825c15443be15"
+    },
+    {
+      "exported_path": "historical/analyze_expanded.py",
+      "original_relative_path": "runs/judge-expanded-20261029-r1/analyze.py",
+      "original_sha256": "63eaae94fe7cc3b805bc92ce0631930d9ebb3d605be78f9dc1aa2a7aee7f3e2b"
+    },
+    {
+      "exported_path": "historical/verify_expanded.py",
+      "original_relative_path": "runs/judge-expanded-20261029-r1/verify.py",
+      "original_sha256": "d519d655ffa4166d3c92eac9619156dce4615e9c3006a85beede0360ea414723"
+    },
+    {
+      "exported_path": "historical/recover_measurement.py",
+      "original_relative_path": "runs/judge-expanded-20261029-r1/recover_measurement_v2.py",
+      "original_sha256": "0e730a6232c9c2eb1a02b755d008b5eef4051fc6d5671ef4a9e824853c84a910"
+    },
+    {
+      "exported_path": "historical/costs.py",
+      "original_relative_path": "src/nurse_harness/costs.py",
+      "original_sha256": "6c13f2fc6943a4b4d447b610ce2097fc47c62519f50f0492d6b57297c34209cc"
+    }
+  ],
+  "clinical_approval": false,
+  "case_origin": "Expert-project native fictional draft scenarios. Not MIMIC patient records.",
+  "raw_provider_audits_included": false,
+  "study_plan_sha256": "7abbf2726cfe21cf5fd4e1c8c81201ca61bc1daa5f8df64cf5039dd465e25cc4",
+  "comparison_sha256": "bf52e29531534a5291287be93e6a15abcd13d278e8f213ee2b58781f23ea7cd0"
+}

@@ -1,0 +1,1364 @@
+{
+  "deepseek-v4-pro-0813": [
+    {
+      "phase": "judge-expanded-20261029-r1",
+      "summary": {
+        "qualified": true,
+        "results": [
+          {
+            "review_id": "R01",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 1
+          },
+          {
+            "review_id": "R05",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          }
+        ]
+      }
+    }
+  ],
+  "glm-5.3": [
+    {
+      "phase": "judge-expanded-20261029-r1",
+      "summary": {
+        "qualified": true,
+        "results": [
+          {
+            "condition": "partial_counts",
+            "review_id": "R01",
+            "status": "failed",
+            "error_type": "ValueError",
+            "error": "empty_content"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R01",
+            "status": "failed",
+            "error_type": "ValueError",
+            "error": "empty_content"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R01",
+            "status": "failed",
+            "error_type": "ValueError",
+            "error": "empty_content"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R02",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R02",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R02",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R03",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R03",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R03",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R04",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R04",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R04",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R05",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R05",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R05",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R06",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R06",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R06",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "measurement-recovery",
+      "summary": {
+        "qualified": true,
+        "results": [
+          {
+            "condition": "partial_counts",
+            "review_id": "R01",
+            "status": "failed",
+            "error_type": "ValueError",
+            "error": "empty_content"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R01",
+            "status": "failed",
+            "error_type": "ValueError",
+            "error": "empty_content"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R02",
+            "status": "failed",
+            "error_type": "JSONDecodeError",
+            "error": "Expecting value: line 1 column 1 (char 0)"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R02",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R02",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R03",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R03",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R03",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R04",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R04",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R04",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R05",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R05",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R05",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R06",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R06",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R06",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          }
+        ]
+      }
+    }
+  ],
+  "minimax-m3": [
+    {
+      "phase": "judge-expanded-20261029-r1",
+      "summary": {
+        "qualified": true,
+        "results": [
+          {
+            "review_id": "R01",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 1
+          },
+          {
+            "review_id": "R04",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R05",
+            "status": "failed",
+            "error_type": "ValueError",
+            "error": "unassessed score must be null"
+          },
+          {
+            "review_id": "R05",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          }
+        ]
+      }
+    }
+  ],
+  "qwen3.5-397b-a17b": [
+    {
+      "phase": "judge-expanded-20261029-r1",
+      "summary": {
+        "qualified": true,
+        "results": [
+          {
+            "review_id": "R01",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 1
+          },
+          {
+            "review_id": "R03",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          }
+        ]
+      }
+    }
+  ],
+  "gpt-oss-120b": [
+    {
+      "phase": "judge-expanded-20261029-r1",
+      "summary": {
+        "qualified": true,
+        "results": [
+          {
+            "condition": "partial_counts",
+            "review_id": "R01",
+            "status": "failed",
+            "error_type": "ValueError",
+            "error": "empty_content"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R01",
+            "status": "failed",
+            "error_type": "ValueError",
+            "error": "empty_content"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R01",
+            "status": "failed",
+            "error_type": "ValueError",
+            "error": "empty_content"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R02",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R02",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R02",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R03",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R03",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R03",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R04",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R04",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R04",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R05",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R05",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R05",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R06",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R06",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R06",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "measurement-recovery",
+      "summary": {
+        "qualified": true,
+        "results": [
+          {
+            "review_id": "R01",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 1
+          },
+          {
+            "review_id": "R02",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 1
+          },
+          {
+            "review_id": "R03",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          }
+        ]
+      }
+    }
+  ],
+  "minimax-m2.5": [
+    {
+      "phase": "judge-expanded-20261029-r1",
+      "summary": {
+        "qualified": true,
+        "results": [
+          {
+            "condition": "complete_only",
+            "review_id": "R01",
+            "status": "failed",
+            "error_type": "JSONDecodeError",
+            "error": "Expecting value: line 1 column 1 (char 0)"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R01",
+            "status": "failed",
+            "error_type": "JSONDecodeError",
+            "error": "Expecting value: line 1 column 1 (char 0)"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R01",
+            "status": "failed",
+            "error_type": "JSONDecodeError",
+            "error": "Expecting value: line 1 column 1 (char 0)"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R02",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R02",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R02",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R03",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R03",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R03",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R04",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R04",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R04",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R05",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R05",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R05",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R06",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "complete_only",
+            "review_id": "R06",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R06",
+            "status": "not_attempted_after3consecutive_terminal_failures"
+          }
+        ]
+      }
+    }
+  ],
+  "qwen3.5-35b-a3b": [
+    {
+      "phase": "judge-expanded-20261029-r1",
+      "summary": {
+        "qualified": true,
+        "results": [
+          {
+            "review_id": "R01",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 1
+          },
+          {
+            "review_id": "R03",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "condition": "ternary",
+            "review_id": "R04",
+            "status": "failed",
+            "error_type": "ValueError",
+            "error": "unassessed score must be null"
+          },
+          {
+            "condition": "partial_counts",
+            "review_id": "R04",
+            "status": "failed",
+            "error_type": "ValueError",
+            "error": "unassessed score must be null"
+          },
+          {
+            "review_id": "R04",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          }
+        ]
+      }
+    }
+  ],
+  "glm-5.2": [
+    {
+      "phase": "judge-expanded-20261029-r1",
+      "summary": {
+        "qualified": true,
+        "results": [
+          {
+            "review_id": "R01",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 1
+          },
+          {
+            "review_id": "R03",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 1
+          },
+          {
+            "review_id": "R03",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          }
+        ]
+      }
+    }
+  ],
+  "deepseek-v4-flash": [
+    {
+      "phase": "judge-expanded-20261029-r1",
+      "summary": {
+        "qualified": true,
+        "results": [
+          {
+            "review_id": "R01",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          }
+        ]
+      }
+    }
+  ],
+  "kimi-k3": [
+    {
+      "phase": "judge-expanded-20261029-r1",
+      "summary": {
+        "qualified": true,
+        "results": [
+          {
+            "review_id": "R01",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R01",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R02",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R03",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R04",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R05",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "complete_only",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "ternary",
+            "status": "ok",
+            "attempt": 0
+          },
+          {
+            "review_id": "R06",
+            "condition": "partial_counts",
+            "status": "ok",
+            "attempt": 0
+          }
+        ]
+      }
+    }
+  ]
+}

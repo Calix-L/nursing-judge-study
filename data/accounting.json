@@ -1,0 +1,793 @@
+{
+  "raw_reported_token_totals": {
+    "prompt_tokens": 2901871,
+    "completion_tokens": 325106,
+    "total_tokens": 3226977
+  },
+  "usage_anomalies": [
+    {
+      "model": "glm-5.3",
+      "role": "input_qualification",
+      "request_local_id": "Q00037",
+      "ledger": "runs/judge-expanded-20261029-r1/usage.jsonl",
+      "issue": "reported_reasoning_tokens_exceed_completion_tokens",
+      "usage": {
+        "prompt_tokens": 10236,
+        "total_tokens": 11260,
+        "completion_tokens": 1024,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 1025,
+          "rejected_prediction_tokens": null
+        },
+        "reasoning_tokens": 1025
+      }
+    },
+    {
+      "model": "glm-5.3",
+      "role": "judge",
+      "request_local_id": "Q00052",
+      "ledger": "runs/judge-expanded-20261029-r1/usage.jsonl",
+      "issue": "reported_reasoning_tokens_exceed_completion_tokens",
+      "usage": {
+        "prompt_tokens": 9328,
+        "total_tokens": 12400,
+        "completion_tokens": 3072,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 3073,
+          "rejected_prediction_tokens": null
+        },
+        "reasoning_tokens": 3073
+      }
+    },
+    {
+      "model": "glm-5.3",
+      "role": "judge_repair",
+      "request_local_id": "Q00010",
+      "ledger": "runs/judge-expanded-20261029-r1/measurement-recovery/usage.jsonl",
+      "issue": "reported_reasoning_tokens_exceed_completion_tokens",
+      "usage": {
+        "prompt_tokens": 9859,
+        "total_tokens": 12931,
+        "completion_tokens": 3072,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 3077,
+          "rejected_prediction_tokens": null
+        },
+        "reasoning_tokens": 3077
+      }
+    }
+  ],
+  "aggregate_costs": {
+    "schema_version": 1,
+    "currency": "CNY",
+    "price_source_url": "https://docs.ksyun.com/documents/44741?type=3",
+    "price_verified_date": "2026-10-29",
+    "total": {
+      "events": 354,
+      "requests": 354,
+      "cooldown_events": 0,
+      "successful_requests": 326,
+      "failed_requests": 28,
+      "usage_missing": 2,
+      "usage_invalid": 3,
+      "usage_observed": 349,
+      "cache_unknown": 120,
+      "cache_observed": 229,
+      "price_unknown": 0,
+      "priced_requests": 349,
+      "possible_unreported_bill": 5,
+      "status_counts": {
+        "empty_content": 26,
+        "http_error": 2,
+        "ok": 326
+      },
+      "complete_usage": false,
+      "tokens": {
+        "prompt_tokens": 2872448,
+        "completion_tokens": 317938,
+        "total_tokens": 3190386,
+        "cached_tokens": 136318
+      },
+      "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+      "list_cost_cny": {
+        "lower": 20.20112612,
+        "upper": 22.11210362,
+        "point": null,
+        "scope": "observed_valid_priced_usage_only",
+        "estimate_only": true
+      }
+    },
+    "by_role": {
+      "availability_probe": {
+        "events": 11,
+        "requests": 11,
+        "cooldown_events": 0,
+        "successful_requests": 9,
+        "failed_requests": 2,
+        "usage_missing": 2,
+        "usage_invalid": 0,
+        "usage_observed": 9,
+        "cache_unknown": 5,
+        "cache_observed": 4,
+        "price_unknown": 0,
+        "priced_requests": 9,
+        "possible_unreported_bill": 2,
+        "status_counts": {
+          "http_error": 2,
+          "ok": 9
+        },
+        "complete_usage": false,
+        "tokens": {
+          "prompt_tokens": 556,
+          "completion_tokens": 211,
+          "total_tokens": 767,
+          "cached_tokens": 195
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 0.00434302,
+          "upper": 0.00486202,
+          "point": null,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "capacity_probe": {
+        "events": 20,
+        "requests": 20,
+        "cooldown_events": 0,
+        "successful_requests": 20,
+        "failed_requests": 0,
+        "usage_missing": 0,
+        "usage_invalid": 0,
+        "usage_observed": 20,
+        "cache_unknown": 8,
+        "cache_observed": 12,
+        "price_unknown": 0,
+        "priced_requests": 20,
+        "possible_unreported_bill": 0,
+        "status_counts": {
+          "ok": 20
+        },
+        "complete_usage": true,
+        "tokens": {
+          "prompt_tokens": 195284,
+          "completion_tokens": 507,
+          "total_tokens": 195791,
+          "cached_tokens": 40968
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 0.59669124,
+          "upper": 0.82599604,
+          "point": null,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "input_qualification": {
+        "events": 156,
+        "requests": 156,
+        "cooldown_events": 0,
+        "successful_requests": 133,
+        "failed_requests": 23,
+        "usage_missing": 0,
+        "usage_invalid": 1,
+        "usage_observed": 155,
+        "cache_unknown": 55,
+        "cache_observed": 100,
+        "price_unknown": 0,
+        "priced_requests": 155,
+        "possible_unreported_bill": 1,
+        "status_counts": {
+          "empty_content": 23,
+          "ok": 133
+        },
+        "complete_usage": false,
+        "tokens": {
+          "prompt_tokens": 1345932,
+          "completion_tokens": 108326,
+          "total_tokens": 1454258,
+          "cached_tokens": 62808
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 9.2083996,
+          "upper": 10.1835504,
+          "point": null,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "judge": {
+        "events": 151,
+        "requests": 151,
+        "cooldown_events": 0,
+        "successful_requests": 149,
+        "failed_requests": 2,
+        "usage_missing": 0,
+        "usage_invalid": 1,
+        "usage_observed": 150,
+        "cache_unknown": 48,
+        "cache_observed": 102,
+        "price_unknown": 0,
+        "priced_requests": 150,
+        "possible_unreported_bill": 1,
+        "status_counts": {
+          "empty_content": 2,
+          "ok": 149
+        },
+        "complete_usage": false,
+        "tokens": {
+          "prompt_tokens": 1214066,
+          "completion_tokens": 183652,
+          "total_tokens": 1397718,
+          "cached_tokens": 29593
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 9.72001702,
+          "upper": 10.42601992,
+          "point": null,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "judge_repair": {
+        "events": 16,
+        "requests": 16,
+        "cooldown_events": 0,
+        "successful_requests": 15,
+        "failed_requests": 1,
+        "usage_missing": 0,
+        "usage_invalid": 1,
+        "usage_observed": 15,
+        "cache_unknown": 4,
+        "cache_observed": 11,
+        "price_unknown": 0,
+        "priced_requests": 15,
+        "possible_unreported_bill": 1,
+        "status_counts": {
+          "empty_content": 1,
+          "ok": 15
+        },
+        "complete_usage": false,
+        "tokens": {
+          "prompt_tokens": 116610,
+          "completion_tokens": 25242,
+          "total_tokens": 141852,
+          "cached_tokens": 2754
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 0.67167524,
+          "upper": 0.67167524,
+          "point": null,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      }
+    },
+    "by_model": {
+      "deepseek-v4-flash": {
+        "events": 39,
+        "requests": 39,
+        "cooldown_events": 0,
+        "successful_requests": 39,
+        "failed_requests": 0,
+        "usage_missing": 0,
+        "usage_invalid": 0,
+        "usage_observed": 39,
+        "cache_unknown": 20,
+        "cache_observed": 19,
+        "price_unknown": 0,
+        "priced_requests": 39,
+        "possible_unreported_bill": 0,
+        "status_counts": {
+          "ok": 39
+        },
+        "complete_usage": true,
+        "tokens": {
+          "prompt_tokens": 334654,
+          "completion_tokens": 30768,
+          "total_tokens": 365422,
+          "cached_tokens": 13056
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 0.7550721,
+          "upper": 1.2430116,
+          "point": null,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "deepseek-v4-pro-0813": {
+        "events": 40,
+        "requests": 40,
+        "cooldown_events": 0,
+        "successful_requests": 40,
+        "failed_requests": 0,
+        "usage_missing": 0,
+        "usage_invalid": 0,
+        "usage_observed": 40,
+        "cache_unknown": 0,
+        "cache_observed": 40,
+        "price_unknown": 0,
+        "priced_requests": 40,
+        "possible_unreported_bill": 0,
+        "status_counts": {
+          "ok": 40
+        },
+        "complete_usage": true,
+        "tokens": {
+          "prompt_tokens": 340471,
+          "completion_tokens": 34942,
+          "total_tokens": 375413,
+          "cached_tokens": 6656
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 3.9497658,
+          "upper": 3.9497658,
+          "point": 3.9497658,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "glm-5.2": {
+        "events": 41,
+        "requests": 41,
+        "cooldown_events": 0,
+        "successful_requests": 41,
+        "failed_requests": 0,
+        "usage_missing": 0,
+        "usage_invalid": 0,
+        "usage_observed": 41,
+        "cache_unknown": 5,
+        "cache_observed": 36,
+        "price_unknown": 0,
+        "priced_requests": 41,
+        "possible_unreported_bill": 0,
+        "status_counts": {
+          "ok": 41
+        },
+        "complete_usage": true,
+        "tokens": {
+          "prompt_tokens": 329658,
+          "completion_tokens": 35832,
+          "total_tokens": 365490,
+          "cached_tokens": 24128
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 3.277722,
+          "upper": 3.495792,
+          "point": null,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "glm-5.3": {
+        "events": 15,
+        "requests": 15,
+        "cooldown_events": 0,
+        "successful_requests": 8,
+        "failed_requests": 7,
+        "usage_missing": 0,
+        "usage_invalid": 3,
+        "usage_observed": 12,
+        "cache_unknown": 8,
+        "cache_observed": 4,
+        "price_unknown": 0,
+        "priced_requests": 12,
+        "possible_unreported_bill": 3,
+        "status_counts": {
+          "empty_content": 7,
+          "ok": 8
+        },
+        "complete_usage": false,
+        "tokens": {
+          "prompt_tokens": 100400,
+          "completion_tokens": 17616,
+          "total_tokens": 118016,
+          "cached_tokens": 8320
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 0.861064,
+          "upper": 1.246528,
+          "point": null,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "gpt-oss-120b": {
+        "events": 44,
+        "requests": 44,
+        "cooldown_events": 0,
+        "successful_requests": 25,
+        "failed_requests": 19,
+        "usage_missing": 0,
+        "usage_invalid": 0,
+        "usage_observed": 44,
+        "cache_unknown": 0,
+        "cache_observed": 44,
+        "price_unknown": 0,
+        "priced_requests": 44,
+        "possible_unreported_bill": 0,
+        "status_counts": {
+          "empty_content": 19,
+          "ok": 25
+        },
+        "complete_usage": true,
+        "tokens": {
+          "prompt_tokens": 356950,
+          "completion_tokens": 67924,
+          "total_tokens": 424874,
+          "cached_tokens": 57085
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 0.6680275,
+          "upper": 0.6680275,
+          "point": 0.6680275,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "kimi-k3": {
+        "events": 39,
+        "requests": 39,
+        "cooldown_events": 0,
+        "successful_requests": 38,
+        "failed_requests": 1,
+        "usage_missing": 1,
+        "usage_invalid": 0,
+        "usage_observed": 38,
+        "cache_unknown": 5,
+        "cache_observed": 33,
+        "price_unknown": 0,
+        "priced_requests": 38,
+        "possible_unreported_bill": 1,
+        "status_counts": {
+          "http_error": 1,
+          "ok": 38
+        },
+        "complete_usage": false,
+        "tokens": {
+          "prompt_tokens": 308849,
+          "completion_tokens": 26731,
+          "total_tokens": 335580,
+          "cached_tokens": 21760
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 7.638896,
+          "upper": 8.4584,
+          "point": null,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "mimo-v2.5-pro": {
+        "events": 1,
+        "requests": 1,
+        "cooldown_events": 0,
+        "successful_requests": 0,
+        "failed_requests": 1,
+        "usage_missing": 1,
+        "usage_invalid": 0,
+        "usage_observed": 0,
+        "cache_unknown": 0,
+        "cache_observed": 0,
+        "price_unknown": 0,
+        "priced_requests": 0,
+        "possible_unreported_bill": 1,
+        "status_counts": {
+          "http_error": 1
+        },
+        "complete_usage": false,
+        "tokens": {
+          "prompt_tokens": null,
+          "completion_tokens": null,
+          "total_tokens": null,
+          "cached_tokens": null
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": null,
+          "upper": null,
+          "point": null,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "minimax-m2.5": {
+        "events": 12,
+        "requests": 12,
+        "cooldown_events": 0,
+        "successful_requests": 12,
+        "failed_requests": 0,
+        "usage_missing": 0,
+        "usage_invalid": 0,
+        "usage_observed": 12,
+        "cache_unknown": 0,
+        "cache_observed": 12,
+        "price_unknown": 0,
+        "priced_requests": 12,
+        "possible_unreported_bill": 0,
+        "status_counts": {
+          "ok": 12
+        },
+        "complete_usage": true,
+        "tokens": {
+          "prompt_tokens": 105652,
+          "completion_tokens": 19132,
+          "total_tokens": 124784,
+          "cached_tokens": 0
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 0.382578,
+          "upper": 0.382578,
+          "point": 0.382578,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "minimax-m3": {
+        "events": 41,
+        "requests": 41,
+        "cooldown_events": 0,
+        "successful_requests": 41,
+        "failed_requests": 0,
+        "usage_missing": 0,
+        "usage_invalid": 0,
+        "usage_observed": 41,
+        "cache_unknown": 0,
+        "cache_observed": 41,
+        "price_unknown": 0,
+        "priced_requests": 41,
+        "possible_unreported_bill": 0,
+        "status_counts": {
+          "ok": 41
+        },
+        "complete_usage": true,
+        "tokens": {
+          "prompt_tokens": 327482,
+          "completion_tokens": 30494,
+          "total_tokens": 357976,
+          "cached_tokens": 5313
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 1.86987192,
+          "upper": 1.86987192,
+          "point": 1.86987192,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "qwen3.5-35b-a3b": {
+        "events": 42,
+        "requests": 42,
+        "cooldown_events": 0,
+        "successful_requests": 42,
+        "failed_requests": 0,
+        "usage_missing": 0,
+        "usage_invalid": 0,
+        "usage_observed": 42,
+        "cache_unknown": 42,
+        "cache_observed": 0,
+        "price_unknown": 0,
+        "priced_requests": 42,
+        "possible_unreported_bill": 0,
+        "status_counts": {
+          "ok": 42
+        },
+        "complete_usage": true,
+        "tokens": {
+          "prompt_tokens": 342238,
+          "completion_tokens": 30618,
+          "total_tokens": 372856,
+          "cached_tokens": null
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 0.2348728,
+          "upper": 0.2348728,
+          "point": null,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      },
+      "qwen3.5-397b-a17b": {
+        "events": 40,
+        "requests": 40,
+        "cooldown_events": 0,
+        "successful_requests": 40,
+        "failed_requests": 0,
+        "usage_missing": 0,
+        "usage_invalid": 0,
+        "usage_observed": 40,
+        "cache_unknown": 40,
+        "cache_observed": 0,
+        "price_unknown": 0,
+        "priced_requests": 40,
+        "possible_unreported_bill": 0,
+        "status_counts": {
+          "ok": 40
+        },
+        "complete_usage": true,
+        "tokens": {
+          "prompt_tokens": 326094,
+          "completion_tokens": 23881,
+          "total_tokens": 349975,
+          "cached_tokens": null
+        },
+        "token_scope": "observed_valid_usage_only; cached_tokens is known-cache subtotal",
+        "list_cost_cny": {
+          "lower": 0.563256,
+          "upper": 0.563256,
+          "point": null,
+          "scope": "observed_valid_priced_usage_only",
+          "estimate_only": true
+        }
+      }
+    }
+  },
+  "prices_snapshot": {
+    "schema_version": 1,
+    "provider": "ksyun",
+    "currency": "CNY",
+    "unit": "CNY per1000000tokens",
+    "mode": "online_inference",
+    "verified_date": "2026-10-29",
+    "source_url": "https://docs.ksyun.com/documents/44741?type=3",
+    "additional_source_url": "https://docs.ksyun.com/documents/45801?type=3",
+    "verification_method": "Official pricing rows read through web search2026-10-29. Page updated fields2026-08-26/2026-09-15, not account bill.",
+    "estimate_only": true,
+    "notes": [
+      "Main inputs limited16K, all within first published input tier.",
+      "Qwen397B/35B public rows have no cache discount listed. Apply standard input rate to all prompt tokens; no inferred cache discount. This is list-price estimation, not actual bill.",
+      "No explicit cache creation requests made. Provider-specific write-cache charges not returned separately remain unobserved.",
+      "Missing failed-request usage is unpriced; known estimate is not full-bill upper bound."
+    ],
+    "models": {
+      "deepseek-v4-pro-0813": {
+        "tiers": [
+          {
+            "input_min": 0,
+            "input_max_exclusive": 32768,
+            "input": 9,
+            "cached_input": 0.3,
+            "output": 27
+          }
+        ]
+      },
+      "glm-5.3": {
+        "tiers": [
+          {
+            "input_min": 0,
+            "input_max_exclusive": 32768,
+            "input": 8,
+            "cached_input": 2,
+            "output": 28
+          }
+        ]
+      },
+      "kimi-k3": {
+        "tiers": [
+          {
+            "input_min": 0,
+            "input_max_exclusive": 32768,
+            "input": 20,
+            "cached_input": 2,
+            "output": 100
+          }
+        ]
+      },
+      "minimax-m3": {
+        "tiers": [
+          {
+            "input_min": 0,
+            "input_max_exclusive": 32768,
+            "input": 4.2,
+            "cached_input": 0.84,
+            "output": 16.8
+          }
+        ]
+      },
+      "qwen3.5-397b-a17b": {
+        "tiers": [
+          {
+            "input_min": 0,
+            "input_max_exclusive": 32768,
+            "input": 1.2,
+            "cached_input": 1.2,
+            "output": 7.2
+          }
+        ]
+      },
+      "gpt-oss-120b": {
+        "tiers": [
+          {
+            "input_min": 0,
+            "input_max_exclusive": 32768,
+            "input": 1,
+            "cached_input": 0.5,
+            "output": 5
+          }
+        ]
+      },
+      "mimo-v2.5-pro": {
+        "tiers": [
+          {
+            "input_min": 0,
+            "input_max_exclusive": 32768,
+            "input": 7,
+            "cached_input": 1.4,
+            "output": 21
+          }
+        ]
+      },
+      "glm-5.2": {
+        "tiers": [
+          {
+            "input_min": 0,
+            "input_max_exclusive": 32768,
+            "input": 8,
+            "cached_input": 2,
+            "output": 28
+          }
+        ]
+      },
+      "deepseek-v4-flash": {
+        "tiers": [
+          {
+            "input_min": 0,
+            "input_max_exclusive": 32768,
+            "input": 3,
+            "cached_input": 0.1,
+            "output": 9
+          }
+        ]
+      },
+      "minimax-m2.5": {
+        "tiers": [
+          {
+            "input_min": 0,
+            "input_max_exclusive": 32768,
+            "input": 2.1,
+            "cached_input": 0.21,
+            "output": 8.4
+          }
+        ]
+      },
+      "qwen3.5-35b-a3b": {
+        "tiers": [
+          {
+            "input_min": 0,
+            "input_max_exclusive": 32768,
+            "input": 0.4,
+            "cached_input": 0.4,
+            "output": 3.2
+          }
+        ]
+      }
+    }
+  },
+  "warning": "349 priced requests only; 2 HTTP calls lack usage and 3 inconsistent usage receipts excluded from pricing. The estimate is not a full bill upper bound."
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*api-key*
+*.pem
+*.key
+runs/
+review-request.json
